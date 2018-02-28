@@ -1,7 +1,7 @@
-import java.io.CharArrayReader;
+//problem 51
+
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.stream.Stream;
 
 public class PrimeDigitReplacements extends EulerProjectProblemAbstract{
 
