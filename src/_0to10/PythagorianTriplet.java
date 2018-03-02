@@ -1,6 +1,4 @@
-package FirstTenProblems;
-
-import java.sql.Timestamp;
+package _0to10;
 
 public class PythagorianTriplet {
 

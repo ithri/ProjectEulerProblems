@@ -1,4 +1,4 @@
-package TenTo20;
+package _10to20;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class LargestProductInMatrix {
+public class _11_LargestProductInMatrix {
 
 
     public static void main(String[] args){

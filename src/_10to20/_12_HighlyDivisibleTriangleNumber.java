@@ -1,6 +1,6 @@
-package TenTo20;
+package _10to20;
 
-public class HighlyDivisbleTriangleNumber {
+public class _12_HighlyDivisibleTriangleNumber {
     public static void main(String[] args){
         int i = 1;
         int number=0;

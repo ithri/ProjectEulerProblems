@@ -1,6 +1,8 @@
-// problem 27
+package _20to30;// problem 27
 
-public class QuadraticPrimes extends EulerProjectProblemAbstract {
+import util.EulerProjectProblemAbstract;
+
+public class _27_QuadraticPrimes extends EulerProjectProblemAbstract {
 
 
     public static void main (String[] args){

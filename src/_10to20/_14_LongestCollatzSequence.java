@@ -1,8 +1,8 @@
-package TenTo20;
+package _10to20;
 
 import java.util.HashMap;
 
-public class LongestCollatzSequence {
+public class _14_LongestCollatzSequence {
     private static HashMap<Long,Long> map = new HashMap<>();
 
     public static void main(String[] args) {

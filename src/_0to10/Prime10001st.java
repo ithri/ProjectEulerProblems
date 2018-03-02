@@ -1,6 +1,5 @@
-package FirstTenProblems;
+package _0to10;
 
-import java.util.List;
 import java.util.stream.IntStream;
 
 public class Prime10001st {

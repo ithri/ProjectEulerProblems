@@ -1,22 +1,14 @@
 // problem 81
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+import util.EulerProjectProblemAbstract;
+
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-public class PathSum extends EulerProjectProblemAbstract {
+
+public class _81_PathSum extends EulerProjectProblemAbstract {
     public static void main (String[] args){
         String fileName = "C://Users/ASUS/IdeaProjects/projectEulerProblems/src/files/p081_matrix.txt";
         //String fileName = "C://Users/ASUS/Downloads/pathsum.txt";
-        List<String> list = new ArrayList<>();
-        try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
-            list = stream.collect(Collectors.toList());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        List<String> list = getListFromFile(fileName);
         int n = list.size();
         String[][] matrixString = new String[n][n];
         Integer[][] matrix = new Integer[n][n];

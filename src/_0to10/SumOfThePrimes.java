@@ -1,6 +1,5 @@
-package FirstTenProblems;
+package _0to10;
 
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 public class SumOfThePrimes {

@@ -1,9 +1,11 @@
 //problem 51
 
+import util.EulerProjectProblemAbstract;
+
 import java.util.Set;
 import java.util.TreeSet;
 
-public class PrimeDigitReplacements extends EulerProjectProblemAbstract{
+public class _51_PrimeDigitReplacements extends EulerProjectProblemAbstract {
 
     public static void main(String[] args) {
 

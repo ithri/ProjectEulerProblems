@@ -1,5 +1,5 @@
 // problem 15
-package TenTo20;
+package _10to20;
 
 
 /*
@@ -17,7 +17,7 @@ x => n = a*3 + b       a/b = 1/3 + 1/(3+3) +  1/(3+3+4)  + 1/(3+3+4+ ... + (x-1)
 9 => 48620 = 12870 * 3 + 10010  1,28   0,77
 10 => 184756
  */
-public class LatticePaths {
+public class _15_LatticePaths {
 
     public static void main(String[] args) {
         double n = 20;

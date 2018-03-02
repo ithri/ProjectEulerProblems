@@ -1,4 +1,4 @@
-package FirstTenProblems;
+package _0to10;
 
 public class FibonnaciSum {
 
