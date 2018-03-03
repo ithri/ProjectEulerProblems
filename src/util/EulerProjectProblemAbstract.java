@@ -1,6 +1,7 @@
 package util;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -27,6 +28,27 @@ public abstract class EulerProjectProblemAbstract {
         }
 
         return list;
+    }
+
+
+    protected static BigDecimal factorial (int n){
+
+        BigDecimal bd = new BigDecimal(1);
+
+        for (int i =2;i<=n;i++){
+           bd = bd.multiply(new BigDecimal(i));
+        }
+        return bd;
+    }
+
+    protected static int sumOfDivisors(int n){
+        int res = 0;
+        for(int i=1;i<=n/2; i++){
+            if(n%i ==0){
+                res+=i;
+            }
+        }
+        return res;
     }
 
 }

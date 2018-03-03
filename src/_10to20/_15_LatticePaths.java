@@ -20,8 +20,19 @@ x => n = a*3 + b       a/b = 1/3 + 1/(3+3) +  1/(3+3+4)  + 1/(3+3+4+ ... + (x-1)
 public class _15_LatticePaths {
 
     public static void main(String[] args) {
-        double n = 20;
-        System.out.println((long)nbPaths(n));
+
+
+        long n = 20;
+        long result = 1;
+        for (long i = 1;i <=n;i++){
+            result = result * (n + i)/i;
+        }
+
+
+
+
+        System.out.println((long)nbPaths(20));
+        System.out.println(result);
 
 
     }
