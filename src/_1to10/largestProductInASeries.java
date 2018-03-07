@@ -1,4 +1,4 @@
-package _0to10;
+package _1to10;
 
 public class largestProductInASeries {
 

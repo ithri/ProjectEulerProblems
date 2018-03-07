@@ -1,4 +1,4 @@
-package _20to30;
+package _21to30;
 
 public class _28_SpiralDiagonalSum {
 

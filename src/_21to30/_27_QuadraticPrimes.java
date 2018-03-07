@@ -1,4 +1,4 @@
-package _20to30;// problem 27
+package _21to30;// problem 27
 
 import util.EulerProjectProblemAbstract;
 
